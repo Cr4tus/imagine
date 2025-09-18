@@ -91,7 +91,7 @@ def main() -> None:
     (embed_with_exiftool if args.use_exiftools else embed_inline)(
         image_data=create_in_memory_jpeg(args.size),
         payload=populate_template(template, args.command),
-        output_file_path=args.output
+        output_file_path=Path(args.output)
     )
 
 
