@@ -51,6 +51,8 @@ options:
                         Path to custom template file.
   -c COMMAND, --command COMMAND
                         Linux command to embed within the template.
+  -p PLACEHOLDER, --placeholder PLACEHOLDER
+                        Custom command placeholder within the template (default: {COMMAND})
   -s WIDTH HEIGHT, --size WIDTH HEIGHT
                         Image size as width height (default: (100, 100))
   -o OUTPUT, --output OUTPUT
